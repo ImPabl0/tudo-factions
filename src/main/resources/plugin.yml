@@ -1,0 +1,19 @@
+name: TudoFaction
+main: Main
+version: 1.0.0
+commands:
+  criarfac:
+    description: Crie sua facção, é necessário ter 32 esmeraldas no inventário.
+    usage: /criarfac <name>
+  convidar:
+    description: Convide um player para sua facção
+    usage: /convidar <player>
+  aceitar:
+    description: Aceite um convite para entrar em uma facção
+    usage: /aceitar <fac>
+  recusar:
+    description: Recuse um convite para entrar em uma facção
+    usage: /recusar <fac>
+  expulsar:
+    description: Expulse um player da sua facção
+    usage: /expulsar <player>
